@@ -1,7 +1,19 @@
-"""Top-level script to invoke helloworld implementation."""
+"""
+Some various ways of saying Hello World in Python
+"""
 
-import sys
-import helloworld.main
+def hello():
+    """
+    Print out Hello World in a function.
+    """
+    print("Hello World in a function.")
 
-if __name__ == '__main__':
-    sys.exit(helloworld.main.main())
+# Call a function that prints out Hello World
+hello()
+
+# Print out Hello World 
+print("Just saying Hello World")
+
+# Assign the string Hello World to a variable and print it out
+str = "Hello World in a variable"
+print(str)
